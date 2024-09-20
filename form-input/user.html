@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 5px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .structure {
+            width: 200px;
+            height: 250px;
+            text-align: center;
+            margin: auto;
+            box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        }
+        body {
+            background: radial-gradient(circle,rgb(255, 251, 251)2%,rgb(255, 255, 90)100%);
+        }
+        .main {
+            text-align: center;  
+            margin: 50px 0 0 0;
+        }
+        .head {
+            margin: 10px 0 5px -1px;
+            width: 100%;
+            size: 20px;
+            background-color: rgba(0, 0, 0, 0.796);
+            color: aliceblue;
+            
+        }
+        .low {
+            margin: 10px 0 5px -1px;
+            width: 100%;
+            size: 20px;
+            background-color:rgba(0, 0, 0, 0.796);
+            color: aliceblue;
+        }
+        .but {
+            margin: 10px 0 5px -1px;
+            width: 100%;
+            size: 20px;
+            text-align: left;
+            color: aliceblue;
+            background-color: rgba(0, 0, 0, 0.796);
+
+            
+        }
+        .col {
+            text-align: center;
+            color: aliceblue;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 2px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+            background-color: orange;
+            margin: 25px 0 0 0;
+            width: 50%;
+            size: 20px;
+        }
+        .logo {
+            width: 130px;
+            display: block;
+            margin: auto;
+        
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2 class="main"> USER LOGIN</h2>
+    <img 
+    class="logo"
+    src="https://logodix.com/logo/649370.png"/>
+    <div class="structure">
+        <form>
+         <div class="head" >
+            <input type="text" placeholder="User Name"/>
+         </div>
+         <div class="low">
+            <input type="text" placeholder="Password"/>
+         </div >
+         <div class="low">
+            <input type="email" placeholder="Email"/>
+         </div>
+         <div class="low">
+            <input type="date" placeholder="Date"/>
+         </div>
+         <div class="but">
+         <input type="checkbox"/>
+         <label>Remember Me</label>
+        </div>
+
+        <div>
+            <a href="#">Forget Password</a>
+        </div>
+        <button class="col">Send</button>
+    </div>     
+    </form>
+</body>
+</html>
